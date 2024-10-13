@@ -24,8 +24,8 @@ print(movie_data.describe())
 # In[18]:
 
 
-movie_data = movie_data.dropna(axis=1)
-print(movie_data.sample(10))
+movie_data1 = movie_data.dropna(axis=1)
+print(movie_data1.sample(10))
 
 
 # In[27]:
